@@ -1,0 +1,34 @@
+header {
+  img {
+    float: left;
+  }
+}
+
+.top-bar {
+  background-color: $secondary-color;
+  margin-top: 5px;
+  
+  a {
+    color: white;
+    font-weight: 500;    
+  }
+  
+  a:hover {
+      
+  }
+  
+  ul.dropdown {
+    text-align: center;
+    background-color: $secondary-color;
+    
+    li {
+      display: inline-block;
+
+      a {
+        
+      }
+
+    }
+
+  }  
+}

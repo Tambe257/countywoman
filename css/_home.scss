@@ -1,0 +1,28 @@
+#content-row-1 {
+  background-color: #007399;
+}
+
+#content-row-2 {
+  background-color: #fff;
+  
+  #inspira-logo {
+    height: 300px;
+    overflow: hidden;
+    
+    img {
+      display: inline-block;
+      @include vertical-align();
+      margin: 0 auto;
+    }
+    
+    #inspira-text {
+      display: inline-block;
+      @include vertical-align(); 
+    } 
+  }
+ 
+}
+
+#content-row-3 {
+  background-color: #006080;
+}

@@ -9,4 +9,55 @@
 .cf {
   zoom: 1; }
 
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+#content-row-1 {
+  background-color: #007399; }
+
+#content-row-2 {
+  background-color: #fff; }
+  #content-row-2 #inspira-logo {
+    height: 300px;
+    overflow: hidden; }
+    #content-row-2 #inspira-logo img {
+      display: inline-block;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      margin: 0 auto; }
+    #content-row-2 #inspira-logo #inspira-text {
+      display: inline-block;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+
+#content-row-3 {
+  background-color: #006080; }
+
+header img {
+  float: left; }
+
+.top-bar {
+  background-color: #009AC8;
+  margin-top: 5px; }
+  .top-bar a {
+    color: white;
+    font-weight: 500; }
+  .top-bar ul.dropdown {
+    text-align: center;
+    background-color: #009AC8; }
+    .top-bar ul.dropdown li {
+      display: inline-block; }
+
+.credit {
+  float: right; }
+
 /*# sourceMappingURL=style.css.map */

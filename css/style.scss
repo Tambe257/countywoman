@@ -1,5 +1,5 @@
 $primary-color: #333;
-$secondary-color: #008CBA;
+$secondary-color: #009AC8;
 $light-blue: #A7D3D3;
 
 
@@ -79,9 +79,19 @@ $light-blue: #A7D3D3;
   zoom: 1;
 }
 
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
 @import "about";
 @import "contact";
 @import "videos";
 @import "home";
 @import "resourceguide";
+@import "main";
+@import "footer";
 

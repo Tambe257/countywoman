@@ -7,30 +7,88 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="dark-row">      
-    <div class="row">
-      <div class="large-12 columns">
-        <nav class="top-bar" data-topbar>
-          <ul class="title-area">
-            <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-          </ul>
-
-          <section class="top-bar-section">
-            <ul class="right">
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="resourceguide.html">Resource Guide</a></li>
-              <li><a href="videos.html">Videos</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-          </section>
-        </nav>
-      </div>
-    </div>
+  <header>
+    <img src="img/cwheader_blue.png" alt="blue"> 
+    <div class="row"> 
+      <img src="img/cwheader_edit2.png" alt="County Woman Logo">
+    </div>  
+  </header>
+  <div class="title-bar" data-responsive-toggle="toggle-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
   </div>
   
-  
-  
-  <script src="js/vendor/jquery.js"></script>
+  <div class="top-bar" id="toggle-menu"> 
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="resourceguide.html">Resource Guide</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+<!-- Content Row 1 -->
+    <div id="content-row-1">
+      <div class="row">
+        <div class="medium-6 columns">
+          <p class="test-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur obcaecati facere, earum officiis recusandae, provident vitae expedita doloribus! Rem laudantium ex modi earum est. Architecto, odio, vitae. Eligendi, blanditiis repellat!</p>
+        </div>   
+
+         <div class="medium-6 columns">
+          <p class="test-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur obcaecati facere, earum officiis recusandae, provident vitae expedita doloribus! Rem laudantium ex modi earum est. Architecto, odio, vitae. Eligendi, blanditiis repellat!</p>
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- Content Row 2 -->
+
+    <div id="content-row-2">
+      <div class="row">
+        <div class="small-12 large-4 columns" id="inspira-logo">
+          <img src="img/inspira.jpg" alt="Inspira">
+        </div>
+        
+        <div class="small-12 large-8 columns" id="inspira-logo">
+          <div id="inspira-text">
+            <h2>Introducing the Inspira Health Network</h2>   
+            <p>This month we formally launched the new brand for our health system: Inspira Health Network. It’s another milestone in the merger between South Jersey Healthcare and Underwood-Memorial Hospital and avery exciting one for me personally.The new name signifies to the community that we are united under one new system, which now provides excellent health care services across a large portion of Southern New Jersey. But Inspira is more than just a name. Pronounced “in-speer-ah,” our new brand is taken from the word...
+  </p>
+            <div class="right"><a href="#">more...</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Content Row 3 -->
+
+    <div id="content-row-3">
+      <div class="row">
+        <p class="test-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur obcaecati facere, earum officiis recusandae, provident vitae expedita doloribus! Rem laudantium ex modi earum est. Architecto, odio, vitae. Eligendi, blanditiis repellat!</p>
+
+      </div>
+    </div>
+    
+<!--   Footer    -->
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr>
+      <div class="row">
+        <div class="medium-6 columns">
+          <p>© Copyright County Woman U.S.A. 2015</p>
+        </div>
+
+        <div class="medium-6 columns">
+          <div class="credit">
+            Website Built By: <a href="http://tonytambe.com" target="_Blank">T.Tambe</a> | <a href="mailto:tambe257@gmail.com">E-Mail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    
+  <script src="js/vendor/jquery.min.js"></script>
   <script src="js/foundation.min.js"></script>
   <script src="js/custom.js"></script>
   <script>

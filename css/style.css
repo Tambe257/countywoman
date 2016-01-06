@@ -22,7 +22,8 @@
   background-color: #fff; }
   #content-row-2 #inspira-logo {
     height: 300px;
-    overflow: hidden; }
+    overflow: hidden;
+    text-align: center; }
     #content-row-2 #inspira-logo img {
       display: inline-block;
       position: relative;
@@ -47,7 +48,8 @@ header img {
 
 .top-bar {
   background-color: #009AC8;
-  margin-top: 5px; }
+  margin-top: 5px;
+  padding: 0px; }
   .top-bar a {
     color: white;
     font-weight: 500; }
@@ -56,8 +58,77 @@ header img {
     background-color: #009AC8; }
     .top-bar ul.dropdown li {
       display: inline-block; }
+    .top-bar ul.dropdown li:hover {
+      background-color: #008bb4; }
 
 .credit {
   float: right; }
+
+.bio-content .warmuth-content {
+  margin-top: 80px; }
+  .bio-content .warmuth-content p {
+    padding: 0px; }
+
+.bio-section {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #333;
+  color: white;
+  margin: 3rem auto;
+  border: 2px solid #444;
+  text-align: center;
+  padding: 20px; }
+  .bio-section .staff-container {
+    margin-top: 40px; }
+    .bio-section .staff-container .bio-name .bio-list {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left; }
+      .bio-section .staff-container .bio-name .bio-list button {
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        border-radius: 5px; }
+        .bio-section .staff-container .bio-name .bio-list button a {
+          color: white; }
+      .bio-section .staff-container .bio-name .bio-list h3,
+      .bio-section .staff-container .bio-name .bio-list h4 {
+        color: white; }
+    .bio-section .staff-container .bio-name h2,
+    .bio-section .staff-container .bio-name h3,
+    .bio-section .staff-container .bio-name h4,
+    .bio-section .staff-container .bio-name h5,
+    .bio-section .staff-container .bio-name p {
+      color: white; }
+    .bio-section .staff-container .bio-name p {
+      padding: 0 !important; }
+
+.bio-pic {
+  text-align: center; }
+  .bio-pic img {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    max-height: 120px; }
+
+.bio-title {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 35px; }
+
+.warmuth-name {
+  font-size: 1.4rem;
+  margin: 10px 0; }
+
+.warmuth-title {
+  text-align: center;
+  margin: 25px 0 10px 0; }
 
 /*# sourceMappingURL=style.css.map */

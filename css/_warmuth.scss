@@ -1,0 +1,89 @@
+.bio-content { 
+  
+  .warmuth-content {
+    margin-top: 80px;
+    p {
+      padding: 0px;
+    }
+  }
+}
+
+.bio-section {
+  @include border-radius(5px);
+  overflow: hidden;
+  background-color: $primary-color;
+  color: white;
+  margin: 3rem auto;
+  border: 2px solid #444;
+  text-align: center;
+  padding: 20px;
+  
+  .staff-container {
+    margin-top: 40px;
+    
+    .bio-name {
+
+      .bio-list {
+        @include center-block();
+        text-align: left;
+
+        button {
+          @include border-radius(5px);
+
+          a {
+            color: white;
+          }
+        }
+
+        h3,
+        h4 {
+          color: white;
+        }
+
+
+      }
+
+      h2,
+      h3,
+      h4,
+      h5,
+      p {
+        color: white;
+      }
+
+      p {
+        padding: 0 !important;
+      }
+    }
+  }
+  
+  img {
+    
+  }
+}
+
+.bio-pic {
+  text-align: center;
+  
+  img {
+    @include vertical-align();
+    max-height: 120px;
+  }
+}
+
+.bio-title {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.warmuth-name {
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.warmuth-title {
+  text-align: center;
+  margin: 25px 0 10px 0;
+}

@@ -159,7 +159,14 @@ p.video-title {
       transform: translateY(-50%); }
 
 #content-row-3 {
-  background-color: #006080; }
+  background-color: #fff; }
+  #content-row-3 #warmuth-logo {
+    height: 300px;
+    overflow: hidden;
+    text-align: center; }
+    #content-row-3 #warmuth-logo img {
+      display: inline-block;
+      margin: 15px auto; }
 
 header img {
   float: left; }

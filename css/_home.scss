@@ -43,3 +43,29 @@
   }
    
 }
+
+#content-row-4 {
+  background-color: #fff;
+  
+  #bidic-logo {
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+    
+    .asa-logo-box {
+      background-color: $primary-color;
+      padding: 5px;
+      @include vertical-align();
+    
+      img {
+        display: inline-block;
+        margin: 15px auto;
+      }
+    }
+    
+    #bidic-text {
+      @include vertical-align();
+    } 
+  }
+   
+}

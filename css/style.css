@@ -168,6 +168,30 @@ p.video-title {
       display: inline-block;
       margin: 15px auto; }
 
+#content-row-4 {
+  background-color: #fff; }
+  #content-row-4 #bidic-logo {
+    height: 250px;
+    overflow: hidden;
+    text-align: center; }
+    #content-row-4 #bidic-logo .asa-logo-box {
+      background-color: #333;
+      padding: 5px;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+      #content-row-4 #bidic-logo .asa-logo-box img {
+        display: inline-block;
+        margin: 15px auto; }
+    #content-row-4 #bidic-logo #bidic-text {
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+
 header img {
   float: left; }
 

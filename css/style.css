@@ -134,7 +134,30 @@ p.video-title {
   background-color: inherit; }
 
 #content-row-1 {
-  background-color: #007399; }
+  background-color: #007399;
+  padding: 5px 0; }
+  #content-row-1 .home-about-container1 {
+    height: 190px; }
+    #content-row-1 .home-about-container1 .home-about-content1 {
+      color: white;
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-align: center;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
+  #content-row-1 .home-about-container2 {
+    height: 190px; }
+    #content-row-1 .home-about-container2 .home-about-content2 {
+      font-size: 1.1rem;
+      color: white;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%); }
 
 #content-row-2 {
   background-color: #fff; }

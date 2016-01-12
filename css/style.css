@@ -23,6 +23,36 @@
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
   margin: 30px 0; }
 
+.size-12 {
+  font-size: 12px; }
+
+.size-14 {
+  font-size: 14px; }
+
+.size-16 {
+  font-size: 16px; }
+
+.size-18 {
+  font-size: 18px; }
+
+.size-21 {
+  font-size: 21px; }
+
+.size-24 {
+  font-size: 24px; }
+
+.size-36 {
+  font-size: 36px; }
+
+.size-48 {
+  font-size: 48px; }
+
+.size-60 {
+  font-size: 60px; }
+
+.size-72 {
+  font-size: 72px; }
+
 /* contact page */
 .contact-page.panel a {
   font: 1.4rem "Avenir Next";
@@ -134,30 +164,20 @@ p.video-title {
   background-color: inherit; }
 
 #content-row-1 {
-  background-color: #007399;
+  background-color: #009AC8;
   padding: 5px 0; }
   #content-row-1 .home-about-container1 {
-    height: 190px; }
+    padding: 3% 1%; }
     #content-row-1 .home-about-container1 .home-about-content1 {
       color: white;
       font-size: 1.5rem;
       font-weight: 500;
-      text-align: center;
-      position: relative;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%); }
+      text-align: center; }
   #content-row-1 .home-about-container2 {
-    height: 190px; }
+    padding: 3% 1%; }
     #content-row-1 .home-about-container2 .home-about-content2 {
       font-size: 1.1rem;
-      color: white;
-      position: relative;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%); }
+      color: white; }
 
 #content-row-2 {
   background-color: #fff; }
@@ -215,23 +235,34 @@ p.video-title {
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
 
+ul.social {
+  float: right;
+  list-style: none; }
+  ul.social li {
+    display: inline-block; }
+
 header img {
   float: left; }
 
+.title-bar {
+  background-color: #343F42; }
+
 .top-bar {
-  background-color: #009AC8;
-  margin-top: 5px;
+  background-color: #343F42;
   padding: 0px; }
+  @media (min-width: 768px) {
+    .top-bar {
+      margin-top: 5px; } }
   .top-bar a {
     color: white;
     font-weight: 500; }
   .top-bar ul.dropdown {
     text-align: center;
-    background-color: #009AC8; }
+    background-color: #343F42; }
     .top-bar ul.dropdown li {
       display: inline-block; }
     .top-bar ul.dropdown li:hover {
-      background-color: #008bb4; }
+      background-color: #009AC8; }
 
 .credit {
   float: right; }

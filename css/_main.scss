@@ -4,11 +4,18 @@ header {
   }
 }
 
+.title-bar {
+  background-color: $dark-blue;  
+}
+
 .top-bar {
-  background-color: $secondary-color;
-  margin-top: 5px;
+  background-color: $dark-blue;
   padding: 0px;
   
+  @include breakpoint(sm) {
+    margin-top: 5px;
+  }
+
   a {
     color: white;
     font-weight: 500;    
@@ -20,7 +27,7 @@ header {
   
   ul.dropdown {
     text-align: center;
-    background-color: $secondary-color;
+    background-color: $dark-blue;
     
     li {
       display: inline-block;
@@ -32,7 +39,7 @@ header {
     }
     
     li:hover {
-      background-color: ($secondary-color * 0.9);
+      background-color: $secondary-color;
     }
   }  
 }

@@ -23,6 +23,90 @@
   background-image: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.75), transparent);
   margin: 30px 0; }
 
+/* Social Icons */
+ul.social {
+  float: right;
+  list-style: none; }
+  ul.social li {
+    display: inline-block;
+    width: 55px;
+    text-align: center; }
+
+#social {
+  margin: 44px 0px;
+  text-align: center; }
+
+.smGlobalBtn {
+  /* global button class */
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #ddd;
+  /* add border to the buttons */
+  box-shadow: 0 3px 3px #999;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 27px;
+  -moz-border-radius: 27px;
+  -webkit-border-radius: 27px;
+  transition: all 1s;
+  -webkit-transition: all 1s; }
+
+/* facebook button class*/
+.facebookBtn {
+  background: #4060A5; }
+
+.facebookBtn:before {
+  /* use :before to add the relevant icons */
+  font-family: "FontAwesome";
+  content: "\f09a";
+  /* add facebook icon */ }
+
+.facebookBtn:hover {
+  color: #4060A5;
+  background: #fff;
+  border-color: #4060A5;
+  /* change the border color on mouse hover */ }
+
+/* youtube button class*/
+.youtubeBtn {
+  background: #e62117; }
+
+.youtubeBtn:before {
+  /* use :before to add the relevant icons */
+  font-family: "FontAwesome";
+  content: "\f167";
+  /* add youtube icon */ }
+
+.youtubeBtn:hover {
+  color: #e62117;
+  background: #fff;
+  border-color: #e62117;
+  /* change the border color on mouse hover */ }
+
+/* mail button class*/
+.mailBtn {
+  background: #333; }
+
+.mailBtn:before {
+  /* use :before to add the relevant icons */
+  font-family: "FontAwesome";
+  content: "\f003";
+  /* add youtube icon */ }
+
+.mailBtn:hover {
+  color: #333;
+  background: #fff;
+  border-color: #333;
+  /* change the border color on mouse hover */ }
+
 .size-12 {
   font-size: 12px; }
 
@@ -235,20 +319,14 @@ p.video-title {
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
 
-ul.social {
-  float: right;
-  list-style: none; }
-  ul.social li {
-    display: inline-block; }
-
 header img {
   float: left; }
 
 .title-bar {
-  background-color: #343F42; }
+  background-color: #333; }
 
 .top-bar {
-  background-color: #343F42;
+  background-color: #333;
   padding: 0px; }
   @media (min-width: 768px) {
     .top-bar {
@@ -258,7 +336,7 @@ header img {
     font-weight: 500; }
   .top-bar ul.dropdown {
     text-align: center;
-    background-color: #343F42; }
+    background-color: #333; }
     .top-bar ul.dropdown li {
       display: inline-block; }
     .top-bar ul.dropdown li:hover {

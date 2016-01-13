@@ -5,11 +5,11 @@ header {
 }
 
 .title-bar {
-  background-color: $dark-blue;  
+  background-color: #333;  
 }
 
 .top-bar {
-  background-color: $dark-blue;
+  background-color: #333;
   padding: 0px;
   
   @include breakpoint(sm) {
@@ -27,7 +27,7 @@ header {
   
   ul.dropdown {
     text-align: center;
-    background-color: $dark-blue;
+    background-color: #333;
     
     li {
       display: inline-block;

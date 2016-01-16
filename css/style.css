@@ -358,6 +358,25 @@ p.video-title {
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
 
+.guide-container ul > li > img {
+  max-height: 1200px; }
+
+.guide-page-title {
+  text-align: center;
+  padding: 15px 0; }
+
+.guide-title {
+  text-align: center; }
+
+.guide-preview {
+  text-align: center;
+  padding: 10px 5px;
+  -webkit-transition: all .5s;
+  transition: all .5s; }
+
+#mybook {
+  margin: 0 auto; }
+
 header #blue-panel {
   display: none; }
 header #header-text {

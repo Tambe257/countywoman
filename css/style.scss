@@ -6,7 +6,7 @@ $dark-blue: #343F42;
 
 @mixin breakpoint($class) {
   @if $class == xs {
-    @media (max-width: 767px) { @content; }
+    @media (max-width: 767px AND screen) { @content; }
   }
  
   @else if $class == sm {
@@ -88,6 +88,17 @@ $dark-blue: #343F42;
   float: left;
 }
 
+.ctr {
+  text-align: center;
+}
+.nopad {
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;  
+}
+
 .divider {
   overflow: hidden;
   clear: both;
@@ -101,18 +112,21 @@ $dark-blue: #343F42;
 
 
 ul.social {
-  float: right;
   list-style: none;
   
   li {
     display: inline-block;
     width: 55px;
     text-align: center;
+    
+    a:visited {
+      color: #fff;
+    }
   }
 }
 
 #social {
-  margin: 44px 0px;
+  margin: 0px;
   text-align: center;
 }
 
@@ -138,6 +152,7 @@ ul.social {
     -webkit-transition: all 1s;
 }
 
+
 /* facebook button class*/
 .facebookBtn{
     background: #4060A5;
@@ -148,7 +163,7 @@ ul.social {
     content: "\f09a"; /* add facebook icon */
 }
 
-.facebookBtn:hover{
+.facebookBtn:hover, .facebookBtn:hover:visited {
     color: #4060A5;
     background: #fff;
     border-color: #4060A5; /* change the border color on mouse hover */
@@ -164,7 +179,7 @@ ul.social {
     content: "\f167"; /* add youtube icon */
 }
 
-.youtubeBtn:hover{
+.youtubeBtn:hover, .youtubeBtn:hover:visited{
     color: #e62117;
     background: #fff;
     border-color: #e62117; /* change the border color on mouse hover */
@@ -180,7 +195,7 @@ ul.social {
     content: "\f003"; /* add youtube icon */
 }
 
-.mailBtn:hover{
+.mailBtn:hover, .mailBtn:hover:visited{
     color: #333;
     background: #fff;
     border-color: #333; /* change the border color on mouse hover */

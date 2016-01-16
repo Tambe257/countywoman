@@ -1,9 +1,9 @@
 #content-row-1 {
-  background-color: $secondary-color;
-  padding: 5px 0;
+  background: linear-gradient($secondary-color, #fff, $secondary-color);
+  padding: 5px 0 0 0;
   
   .home-about-container1 {
-    padding: 3% 1%;
+    padding: 4% 1%;
     
     .home-about-content1 {
       color: white;
@@ -24,7 +24,8 @@
 }
 
 #content-row-2 {
-  background-color: #fff;
+  background: linear-gradient($secondary-color, #fff 20%);
+  padding-top: 45px;
   
   #inspira-logo {
     height: 300px;

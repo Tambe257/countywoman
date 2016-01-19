@@ -373,6 +373,8 @@ p.video-title {
   padding: 10px 5px;
   -webkit-transition: all .5s;
   transition: all .5s; }
+  .guide-preview img {
+    width: 75%; }
 
 #mybook {
   margin: 0 auto; }

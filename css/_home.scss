@@ -28,9 +28,13 @@
   padding-top: 45px;
   
   #inspira-logo {
-    height: 365px;
+    height: 385px;
     overflow: hidden;
     text-align: center;
+    
+    @include breakpoint(xs) {
+      height: 450px;  
+    }
     
     img {
       display: inline-block;
@@ -69,7 +73,7 @@
   background-color: #fff;
   
   #bidic-logo {
-    height: 330px;
+    height: 340px;
     overflow: hidden;
     text-align: center;
     

@@ -305,9 +305,12 @@ p.video-title {
   background: linear-gradient(#009AC8, #fff 20%);
   padding-top: 45px; }
   #content-row-2 #inspira-logo {
-    height: 365px;
+    height: 385px;
     overflow: hidden;
     text-align: center; }
+    @media (max-width: 767px AND screen) {
+      #content-row-2 #inspira-logo {
+        height: 450px; } }
     #content-row-2 #inspira-logo img {
       display: inline-block;
       position: relative;
@@ -336,7 +339,7 @@ p.video-title {
 #content-row-4 {
   background-color: #fff; }
   #content-row-4 #bidic-logo {
-    height: 330px;
+    height: 340px;
     overflow: hidden;
     text-align: center; }
     #content-row-4 #bidic-logo .asa-logo-box {
@@ -356,6 +359,9 @@ p.video-title {
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
+
+#book {
+  margin: 0 auto; }
 
 .guide-container ul > li > img {
   max-height: 1200px; }

@@ -28,13 +28,9 @@
   padding-top: 45px;
   
   #inspira-logo {
-    height: 385px;
+    height: 275px;
     overflow: hidden;
     text-align: center;
-    
-    @include breakpoint(xs) {
-      height: 450px;  
-    }
     
     img {
       display: inline-block;
@@ -47,7 +43,20 @@
       @include vertical-align(); 
     } 
   }
- 
+  
+  #inspira-textbox {
+    height: 385px;
+    overflow: hidden;
+    text-align: center;
+    
+    @include breakpoint(md) {
+      height: 275px;
+      
+      #inspira-text {
+        @include vertical-align();
+      }
+    }
+  }
 }
 
 #content-row-3 {
@@ -73,7 +82,7 @@
   background-color: #fff;
   
   #bidic-logo {
-    height: 340px;
+    height: 260px;
     overflow: hidden;
     text-align: center;
     
@@ -87,10 +96,24 @@
         margin: 15px auto;
       }
     }
+  }
+  
+  #bidic-textbox {
+    height: 380px;
+    overflow: hidden;
+    text-align: center;
     
     #bidic-text {
       @include vertical-align();
-    } 
+      
+      h2 {
+        font-size: 2rem;
+      }
+    }
+    
+    @include breakpoint(md){
+      height: 260px;
+    }
   }
    
 }

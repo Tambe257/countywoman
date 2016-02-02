@@ -4,11 +4,10 @@ header {
   }
   
   #header-text {
-    display: none;
+   
   }
   
   .header-text {
-    width: 50%;
     font-weight: 500;
     font-size: 1.3rem;
     font-family: 'Roboto Slab', serif;
@@ -16,14 +15,16 @@ header {
     text-align: center;
     float: left;
     margin-left: 18px;
+    display: none;
+    width: 55%;
 
     @include breakpoint(sm) {
-      width: 61%;
+      width: 45%;
     }
   }
   
   @include breakpoint(xs) {
- 
+  
   }
   
   @include breakpoint(sm) {
@@ -31,12 +32,16 @@ header {
       display: inherit;
     }
     #header-text {
-      display: inherit;
+      display: block;
     }
     
     img {
       margin-bottom: 0px;
     }
+  }
+  
+  @include breakpoint(md) {
+    display: block;  
   }
   
   img {

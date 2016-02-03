@@ -393,6 +393,10 @@ p.video-title {
 #book {
   margin: 0 auto; }
 
+#book-container {
+  padding: 60px 0 0 0;
+  width: 375px; }
+
 .guide-container ul > li > img {
   max-height: 1200px; }
 
@@ -400,7 +404,7 @@ p.video-title {
   text-align: center;
   padding: 15px 0; }
   .guide-page-title h1 {
-    font-size: 6rem; }
+    font-size: 2.5rem; }
     @media (min-width: 992px) {
       .guide-page-title h1 {
         font-size: 4rem; } }
@@ -415,7 +419,7 @@ p.video-title {
   transition: all .5s;
   margin: 20px 0; }
   .guide-preview h3 {
-    font-size: 4.5rem; }
+    font-size: 2.3rem; }
     @media (min-width: 992px) {
       .guide-preview h3 {
         font-size: 2.5rem; } }
@@ -439,7 +443,7 @@ header .header-text {
   width: 55%; }
   @media (min-width: 768px) {
     header .header-text {
-      width: 45%; } }
+      width: 55%; } }
 @media (min-width: 768px) {
   header #blue-panel {
     display: inherit; }

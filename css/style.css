@@ -395,7 +395,20 @@ p.video-title {
 
 #book-container {
   padding: 60px 0 0 0;
-  width: 375px; }
+  width: 375px;
+  height: 675px;
+  overflow: hidden; }
+  @media (min-width: 992px) {
+    #book-container {
+      overflow: visible; } }
+
+.flex-row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
 .guide-container ul > li > img {
   max-height: 1200px; }
@@ -417,7 +430,10 @@ p.video-title {
   padding: 10px 5px;
   -webkit-transition: all .5s;
   transition: all .5s;
-  margin: 20px 0; }
+  margin: 20px 0;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
   .guide-preview h3 {
     font-size: 2.3rem; }
     @media (min-width: 992px) {
@@ -428,6 +444,10 @@ p.video-title {
 
 #mybook {
   margin: 0 auto; }
+
+.wowbook-toolbar {
+  width: 120%;
+  left: 0px; }
 
 header #blue-panel {
   display: none; }
@@ -497,6 +517,146 @@ header img {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%); }
+
+.about-bidic {
+  margin: 25px 0px;
+  background-color: white;
+  padding: 20px 15px;
+  -webkit-box-shadow: -10px 0 20px 0 #595959;
+  box-shadow: -2px 0 9px 0 #595959; }
+  .about-bidic h4 {
+    margin-top: 15px; }
+  .about-bidic p {
+    margin-top: 15px; }
+  .about-bidic .profilepic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+
+.asalogo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+#bidic-logo {
+  text-align: center; }
+
+.drprofile {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
+
+.bidic-body {
+  background-color: White;
+  padding: 10px 35px;
+  overflow: hidden; }
+  .bidic-body p {
+    margin: 10px 0px; }
+
+.bidic-right {
+  background-color: #ffffff;
+  -webkit-box-shadow: -10px 0 20px 0 #595959;
+  box-shadow: -2px 0 9px 0 #595959; }
+
+.bidic-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 10px 0px; }
+
+.bidic-title-right {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 20px 0px; }
+
+.sub-heading {
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 20px 0px; }
+
+ul.bidic-background {
+  float: left;
+  list-style-type: none; }
+  ul.bidic-background li {
+    font-size: 0.9rem; }
+
+.about-doctor {
+  margin: 25px 0px;
+  background-color: white;
+  padding: 20px 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
+  .about-doctor h4 {
+    margin: 15px 0; }
+  .about-doctor p {
+    margin-top: 15px; }
+  .about-doctor .profilepic {
+    text-align: center; }
+    .about-doctor .profilepic img {
+      margin: 10% 20%; }
+  .about-doctor .sayed-info {
+    text-align: center; }
+
+.drprofile {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px; }
+
+.inspira-body {
+  background-color: #0099cc;
+  padding: 10px 35px; }
+  .inspira-body p {
+    margin: 10px 0px; }
+  .inspira-body img {
+    margin: 0 auto; }
+  .inspira-body .inspira-logo-container {
+    text-align: center;
+    margin: 25px 0; }
+
+.inspira-right {
+  background-color: #ffffff;
+  -webkit-box-shadow: -10px 0 20px 0 #595959;
+  box-shadow: -2px 0 9px 0 #595959; }
+
+.inspira-title {
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: 700;
+  margin: 10px 0px; }
+
+.inspira-title-right {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 20px 0px; }
+
+.quick-tips {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  border-radius: 20px;
+  margin: 10px 0;
+  background-color: white; }
+  .quick-tips h2 {
+    color: black; }
+  .quick-tips h3 {
+    color: #009AC8; }
+
+.sub-heading {
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 20px 0px; }
+
+ul.inspira-locations {
+  list-style-type: none;
+  float: left; }
+  ul.inspira-locations li {
+    font-size: 0.9rem; }
 
 .bio-content .warmuth-content {
   margin-top: 80px; }

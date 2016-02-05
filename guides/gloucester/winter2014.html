@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>County Woman U.S.A.</title>
   <link rel="stylesheet" href="../../css/foundation.css">
   <link rel="stylesheet" href="../../css/style.css">
@@ -12,7 +13,7 @@
 <body>
 
 <!--     Content   -->
-  <div class="small-10 small-centered columns">   
+  <div class="small-10 small-centered columns" id="book-container">   
     <div id='book'>
       <div id="page0"><img src="../../img/guides/gloucester/2014-WINTER/my-book_zoom_001.jpg" alt="Cover Page"></div>
       <div></div>
@@ -128,9 +129,15 @@
   
     <script>
       $("#book").wowBook({
-        width: 850, height: 500,
-        images : "../../img/guides/gloucester/2014-WINTER/my-book_zoom_{{xxx}}.jpg",
-        toolbar : "first, back, next, last, zoomin, zoomout, slideshow, flipsound, fullscreen, thumbnails"
+        width: 850, height:500,
+        images : "../../img/guides/cumberland-salem/2015-02-Feb-Mar/my-book_zoom_{{xxx}}.jpg",
+        toolbar : "first, back, next, last, zoomin, zoomout, slideshow, flipsound, fullscreen, thumbnails",
+        scaleToFit: "#book-container",
+        responsiveSinglePage: function( book ){
+          // return true (and activate single page mode)
+          // if the container width is less than 500
+          return $("#book-container").width() < 500;
+        }
       });
     </script>
   <script>

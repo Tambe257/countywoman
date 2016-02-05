@@ -1,0 +1,104 @@
+.about-doctor {
+  margin: 25px 0px;
+  background-color: white;
+  padding: 20px 15px;
+  @include border-radius(20px);
+  
+  h4 {
+    margin: 15px 0;
+  }
+  
+  p {
+    margin-top: 15px;
+  }
+  
+  .profilepic {
+    text-align: center;
+    
+    img {
+      margin: 10% 20%;
+    }
+  }
+  
+  .sayed-info {
+    text-align: center;
+  }
+}
+
+.drprofile {
+  @include border-radius(20px);
+}
+
+.inspira-body {
+  background-color: #0099cc;
+  padding: 10px 35px;
+  
+  p {
+    margin: 10px 0px;
+  }
+  
+  img {
+    margin: 0 auto;
+  }
+  
+  .inspira-logo-container {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+.inspira-right {
+  background-color: #ffffff;
+  -webkit-box-shadow: -10px 0 20px 0 #595959;
+  box-shadow: -2px 0 9px 0 #595959;
+}
+
+.inspira-title {
+  text-align: center;
+  font-size: 2.0rem;
+  font-weight: 700;
+  margin: 10px 0px;
+}
+
+.inspira-title-right {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 20px 0px;
+}
+
+.quick-tips {
+  @include border-radius(20px);
+  margin: 10px 0;
+  background-color: white;
+  
+  h2 {
+    color: black;
+  }
+  
+  h3 {
+    color: $secondary-color;
+  }
+  ul {
+    
+    li {
+      
+    }
+  }
+}
+
+.sub-heading {
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 20px 0px;
+}
+
+ul.inspira-locations {
+  list-style-type: none;
+  float: left;
+  
+  li {
+    font-size: 0.9rem;
+  }
+}
+

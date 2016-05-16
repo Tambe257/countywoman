@@ -281,6 +281,14 @@ p.video-title {
     p.video-title {
       text-align: left; } }
 
+p.video-title-sm {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem; }
+  @media (min-width: 992px) {
+    p.video-title-sm {
+      text-align: left; } }
+
 .video-preview {
   text-align: center;
   margin-bottom: 20px;
@@ -724,5 +732,3 @@ ul.inspira-locations {
 .warmuth-title {
   text-align: center;
   margin: 25px 0 10px 0; }
-
-/*# sourceMappingURL=style.css.map */
